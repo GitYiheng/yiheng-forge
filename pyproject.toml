@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "yiheng-forge"
 version = "0.1.0"
 description = "Unified training framework for multi-modal models"
+authors = ["Yiheng Zhu <gityiheng@gmail.com>"]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
