@@ -1,0 +1,8 @@
+task: train
+seed: 42
+
+runner:
+  output_dir: outputs
+
+trainer:
+  max_steps: 1

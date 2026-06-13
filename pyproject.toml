@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yiheng-forge"
+version = "0.1.0"
+description = "Unified training framework for multi-modal models"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "hydra-core",
+    "omegaconf",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+include = ["yiheng_forge*"]

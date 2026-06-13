@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-bld/
+.python-version
+
+# Test, coverage, and type-check caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hydra outputs
+outputs/
+multirun/
+.hydra/
+*.log
+
+# Training artifacts and large local data
+checkpoints/
+ckpts/
+runs/
+wandb/
+mlruns/
+logs/
+artifacts/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Local datasets
+data/
+datasets/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.envrc
+
+# Local agent/tool state
+.agents/
+.codex/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
