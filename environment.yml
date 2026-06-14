@@ -1,6 +1,12 @@
 name: yiheng-forge
 channels:
+  - nvidia
   - conda-forge
+  - defaults
+
 dependencies:
-  - python=3.10
+  - python=3.12
+  - cudatoolkit=12.8
+  - cudnn=9.7
   - uv
+  - pip

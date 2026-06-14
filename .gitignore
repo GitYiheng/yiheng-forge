@@ -67,6 +67,9 @@ datasets/
 .agents/
 .codex/
 
+# Local notes
+todo.md
+
 # IDE and OS files
 .vscode/
 .idea/
